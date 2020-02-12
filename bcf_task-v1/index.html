@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>TOP10</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+  
+  <div class="main">
+
+  
+  <h2>TOP 10 najbardziej zanieczyszonych miast w państwie: </h2>
+
+
+  <div class="headerButton">
+    <form class="autoComplet" autocomplete="off" action="/action_page.php">
+      <div class="autocomplete" style="width:300px;">
+        <input id="myInput" type="text" name="myCountry" placeholder="Państwo">
+      </div>
+      
+    </form>
+    <button id="submit" onclick="Sub()">Sprawdź!</button>
+  </div>
+
+  <br><br>
+
+  <div id="cityList" style="width: 40%"></div>
+<ul id="list">
+<li></li>
+</ul>
+
+
+<script src="JS/logic.js"></script>
+</body>
+</html>
